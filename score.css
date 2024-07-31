@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:20px;
+ 
+    height: auto;
+    
+}
+body{
+    background:url("cricket.jpeg") no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+
+.container{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+p{
+    font-size: 40px;
+    font-weight: 400;
+    width:200px;
+    height: 200px;
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    background-color: black;
+    color: beige;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top:50%;
+}
+.button{
+    background-color: #001801;
+    color: aqua;
+    border-radius: 5px;
+    
+
+}     
+.sec1{
+    margin:10px;
+    padding:10px;
+    
+} 
